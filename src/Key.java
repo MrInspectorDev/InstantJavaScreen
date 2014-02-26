@@ -25,7 +25,7 @@ public class Key extends JFrame {
 			@Override
 			public void keyPressed(KeyEvent e) {
 				if (e.getKeyCode() == KeyEvent.VK_ENTER) {
-					System.out.println("[IJS] Took a screenshot!");
+				//	System.out.println("[IJS] Took a screenshot!");
 				try {
 
 					Dimension size = Toolkit.getDefaultToolkit()
