@@ -28,8 +28,7 @@ public class Key extends JFrame {
 				//	System.out.println("[IJS] Took a screenshot!");
 				try {
 
-					Dimension size = Toolkit.getDefaultToolkit()
-							.getScreenSize();
+					Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
 					Robot robot = new Robot();
 					BufferedImage img = robot.createScreenCapture(new Rectangle(size));
 					try {
@@ -39,7 +38,7 @@ public class Key extends JFrame {
 						e1.printStackTrace();
 					}
 				} catch (AWTException e1) {
-					System.err.println("Someone call a doctor! I THINK... I THINK HE'S BROKEN!");
+					System.err.println("NOOO! I think.. I think we lost him. :(");
 				}
 
 			}
