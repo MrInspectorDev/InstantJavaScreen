@@ -28,7 +28,7 @@ public class InstantJavaScreen extends JFrame {
 
 	
 	public static void main(String[] args) {
-		new InstantJavaScreen();
+	//	new InstantJavaScreen();
 		Key key = new Key();
 		key.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
