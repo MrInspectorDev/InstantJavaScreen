@@ -32,7 +32,7 @@ public class Key extends JFrame {
 					Robot robot = new Robot();
 					BufferedImage img = robot.createScreenCapture(new Rectangle(size));
 					try {
-						ImageIO.write(img, "JPG", new File("Screenshot # " + 1 + ".jpg"));
+						ImageIO.write(img, "JPG", new File("[IJS] - Screenshot # " + 1 + ".jpg"));
 
 					} catch (IOException e1) {
 						e1.printStackTrace();
